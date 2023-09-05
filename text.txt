@@ -1,0 +1,7 @@
+font-family: 'Alkatra', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+url = "http://api.currencyapi.com/v3/latest?apikey=cur_live_yAuChjJy4LM0Foz1yxIajgieF84ZZNuhbwgryAG5&base_currency="

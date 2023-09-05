@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@700&family=Noto+Sans&family=Poppins:ital,wght@0,300;0,600;1,900&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: antiquewhite; */
+    
+}
+nav{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    font-weight: 900 ;
+    background-color: rgb(224, 209, 245);
+    padding: 23px;
+
+}
+nav li a{
+    text-decoration: none;
+    color:rgb(2, 3, 18);
+    transition: all;
+    transition-duration: 500ms;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;  
+}
+.container{
+    min-height: 100vh;
+    /* background-color: brown; */
+    max-width: 80vw;
+    margin: auto;
+}
+.container h1{
+    /* text-align: center; */
+    /* color: wheat; */
+    margin: 23px 0 ;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.container form label{
+    font-size: 23px;
+}
+.container form input[type='number'], select,label{
+    font-size: 23px;
+    width: 23vw;
+    margin-bottom: 23px;
+}
+.btn1{
+    width: 76px;
+    padding: 5px 13px;
+    border-radius: 13px;
+    background-color: rgb(224, 209, 245);
+    color: black;
+    cursor: pointer;
+    
+}
+.output{
+    /* display: none; */
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
